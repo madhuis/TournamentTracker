@@ -8,7 +8,7 @@ namespace TournamentLibrary
 {
     public class TeamModel
     {
-        public List<Person> TeamMembers { get; set; } = new List<Person>();
+        public List<PersonModel> TeamMembers { get; set; } = new List<PersonModel>();
 
         // Equivalent to = new List<Person>();
         //public TeamModel()
