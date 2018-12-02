@@ -66,9 +66,9 @@
             this.headerLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(153)))), ((int)(((byte)(255)))));
             this.headerLabel.Location = new System.Drawing.Point(12, 9);
             this.headerLabel.Name = "headerLabel";
-            this.headerLabel.Size = new System.Drawing.Size(361, 51);
+            this.headerLabel.Size = new System.Drawing.Size(343, 51);
             this.headerLabel.TabIndex = 5;
-            this.headerLabel.Text = "Create Tournament: ";
+            this.headerLabel.Text = "Create Tournament";
             // 
             // tournamentNametextbox
             // 
