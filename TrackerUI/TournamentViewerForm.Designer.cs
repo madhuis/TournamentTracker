@@ -66,6 +66,7 @@
             this.tournamentName.Size = new System.Drawing.Size(160, 51);
             this.tournamentName.TabIndex = 0;
             this.tournamentName.Text = "<none>";
+            this.tournamentName.Click += new System.EventHandler(this.tournamentName_Click);
             // 
             // roundLabel
             // 
@@ -77,6 +78,7 @@
             this.roundLabel.Size = new System.Drawing.Size(132, 51);
             this.roundLabel.TabIndex = 0;
             this.roundLabel.Text = "Round";
+            this.roundLabel.Click += new System.EventHandler(this.roundLabel_Click);
             // 
             // roundDropDown
             // 
@@ -85,6 +87,7 @@
             this.roundDropDown.Name = "roundDropDown";
             this.roundDropDown.Size = new System.Drawing.Size(279, 45);
             this.roundDropDown.TabIndex = 1;
+            this.roundDropDown.SelectedIndexChanged += new System.EventHandler(this.roundDropDown_SelectedIndexChanged);
             // 
             // unPlayedOnlyCheckbox
             // 
@@ -98,6 +101,7 @@
             this.unPlayedOnlyCheckbox.TabIndex = 2;
             this.unPlayedOnlyCheckbox.Text = "Unplayed Only";
             this.unPlayedOnlyCheckbox.UseVisualStyleBackColor = true;
+            this.unPlayedOnlyCheckbox.CheckedChanged += new System.EventHandler(this.unPlayedOnlyCheckbox_CheckedChanged);
             // 
             // matchUpListBox
             // 

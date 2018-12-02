@@ -16,5 +16,25 @@ namespace TrackerUI
         {
             InitializeComponent();
         }
+
+        private void unPlayedOnlyCheckbox_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void roundDropDown_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void tournamentName_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void roundLabel_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
