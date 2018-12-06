@@ -16,6 +16,7 @@ namespace TournamentLibrary
             if (database) // true value => database == true
             {
                 // TODO = Create a Sql connection
+
             }
 
             if (textFiles)
