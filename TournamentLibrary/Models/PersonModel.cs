@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 
-namespace TournamentLibrary
+namespace TournamentLibrary.Models
 {
     public class PersonModel
     {
